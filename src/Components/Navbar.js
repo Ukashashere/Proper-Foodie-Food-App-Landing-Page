@@ -43,7 +43,16 @@ const Navbar = () => {
       icon: <ShoppingCartRoundedIcon />,
     },
   ];  
-  return <div>Navbar</div>
+  return (
+  <nav>
+    <div className='nav-logo-container'>
+      <img src={Logo} alt="" />
+    </div>
+    <div className="navbar-links-container" >
+      
+    </div>
+  </nav>
+  );
 };
 
-export default Navbar;
+export default Navbar;  
