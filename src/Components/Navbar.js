@@ -1,7 +1,7 @@
 /* hit ctrl+K then M, then type react, it enables react intillicence*/
 /* rafce */
 
-import React from 'react';
+import React, { useState } from 'react'; /* to use useState hook, important to import this*/
 import Logo from '../Assets/Logo.svg';
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
