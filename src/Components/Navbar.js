@@ -58,6 +58,9 @@ const Navbar = () => {
       </a>
       <button className="primary-button">Bookings Now</button>
     </div>
+    <div className='navbar-menu-container' >
+      <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
+    </div>
   </nav>
   );
 };
