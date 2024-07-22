@@ -9,5 +9,3 @@
 ## .
 ![Screenshot (740)](https://github.com/user-attachments/assets/248eed18-e288-4855-9d76-2dbf2decb14b)
 ## .
-
-.
