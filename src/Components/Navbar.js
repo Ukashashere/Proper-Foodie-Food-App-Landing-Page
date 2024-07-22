@@ -20,8 +20,8 @@ import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState(false);
-  const menuOptions = [
+  const [openMenu, setOpenMenu] = useState(false);  /* this is useState Hook. useState(false): This hook is used to declare a state variable and its setter function. Here, useState is initialized with false. openMenu: This is the state variable that will hold the current state value */
+  const menuOptions = [     /* menuOptions: This is an array of objects representing the options in the menu.*/
     {
       text: "Home",
       icon: <HomeIcon />,
@@ -49,7 +49,13 @@ const Navbar = () => {
       <img src={Logo} alt="" />
     </div>
     <div className="navbar-links-container" >
-      
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Testimonials</a>
+      <a href="">Contact</a>
+      <a href="">
+        
+      </a>
     </div>
   </nav>
   );
