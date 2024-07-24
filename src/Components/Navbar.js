@@ -49,7 +49,7 @@ const Navbar = () => {
       <img src={Logo} alt="" />
     </div>
     <div className="navbar-links-container" >
-      <a href="">Home</a>
+      <a href="">Home</a>  {/*maybe you able to click and hover over these because there is 'href' element attached to it */}
       <a href="">About</a>
       <a href="">Testimonials</a>
       <a href="">Contact</a>
