@@ -22,7 +22,7 @@ const Testimonial = () => {
         <div className="testimonials-stars-container">
           <AiFillStar />
           <AiFillStar />
-          <AiFillStar />
+          <AiFillStar />     {/*These are the Stars , 5stars in the testimonial section*/}
           <AiFillStar />
           <AiFillStar />
         </div>
