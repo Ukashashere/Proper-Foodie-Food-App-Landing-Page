@@ -63,7 +63,7 @@ const Navbar = () => {
     </div>
     <Drawer open={openMenu} onClose={() => setOpenMenu(false)}
     anchor='right'>
-      <box
+      <Box
         sx={{ width: 250}}
         role="presentation"
         onClick={() => setOpenMenu(false)}
@@ -79,7 +79,7 @@ const Navbar = () => {
             </ListItem>                                                                                       
           ))}
         </List>  
-      </box>
+      </Box>
     </Drawer>
   </nav>
   );
