@@ -1,5 +1,5 @@
-/* hit ctrl+K then M, then type react, it enables react intillicence*/
-/* rafce */
+/* hit ctrl+K then M, then type react, it enables react intillicence*/    /* OR we could've renamed the file to .jsx*/
+/* rafce */ 
 
 import React from 'react';
 import Navbar from './Navbar';

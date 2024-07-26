@@ -1,3 +1,6 @@
+/* hit ctrl+K then M, then type react, it enables react intillicence*/    /* OR we could've renamed the file to .jsx*/
+/* rafce */
+
 import React from "react";
 import PickMeals from "../Assets/pick-meals-image.png";
 import ChooseMeals from "../Assets/choose-image.png";

@@ -1,3 +1,6 @@
+/* hit ctrl+K then M, then type react, it enables react intillicence*/   /* OR we could've renamed the file to .jsx*/
+/* rafce */
+
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
 import AboutBackgroundImage from "../Assets/about-background-image.png";
