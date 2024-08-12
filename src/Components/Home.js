@@ -5,7 +5,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import bannerbackground from "../Assets/home-banner-background.png"; /*solve this yellow background image issue*/
 import bannerImage from "../Assets/home-banner-image.png";
-import fiArrowRight, { FiArrowRight } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
                 Order Now<FiArrowRight />
               </button>
             </div>
-            <div>
+            <div className="home-image-section">    {/*this was not present*/}
               <img src={bannerImage} alt="" />
             </div>
           </div>
