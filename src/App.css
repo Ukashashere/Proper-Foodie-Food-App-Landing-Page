@@ -85,10 +85,25 @@ nav {
 }
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
-  color: #4c4c4c;
+  color: #323030;
   /* line-height: 5rem; */
   max-width: 600px;
+
+  position: relative;                                /*Animation*/
+  animation: move-words 2s linear infinite;
+  margin: 0;
 }
+
+
+@keyframes move-words {
+  0% {
+      right: 100%;
+  }
+  100% {
+      right: -100%;
+  }
+}
+
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
