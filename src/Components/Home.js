@@ -12,9 +12,9 @@ const Home = () => {
   return(                                 /*This thing is the HTML part*/
       <div className="home-container">
           <Navbar />
-          <div className="home-banner-conatiner">
-            <div className="home-bannerImage-conatiner">
-              <img src={bannerbackground} alt="" />
+          <div className="home-banner-container">         {/*typo was there*/}
+            <div className="home-bannerImage-container">   {/*typo was here too*/}
+              <img src={bannerbackground} alt="" />         {/*Now the Home Error got fixed*/}
             </div>
             <div className='home-text-section'>
               <h1 className='primary-heading'>
