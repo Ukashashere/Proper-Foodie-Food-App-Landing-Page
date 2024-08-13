@@ -13,6 +13,8 @@
 ## .
 ![image](https://github.com/user-attachments/assets/3ac3ad3d-fa0e-4dc6-ac39-d894bbb1755d)
 ## .
-
-
-
+## Images Simple download then apply- Background mask removal
+![image](https://github.com/user-attachments/assets/8e33c8f0-de25-4dea-8e61-761df268b846)
+## .
+![image](https://github.com/user-attachments/assets/cc950c17-a396-4d6a-bc2f-132efe261445)
+## .
