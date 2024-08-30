@@ -5,6 +5,8 @@ import Work from './Components/Work';       /*Import, Here we have imported thin
 import Testimonial from './Components/Testimonial';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Emotion_recognition from './emotion_recognition';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
+      <Emotion_recognition />
     </div>
   );
 }
